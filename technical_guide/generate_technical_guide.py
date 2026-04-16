@@ -176,9 +176,9 @@ story += [
     make_table(
         [
             ["Package", "Version", "Channel"],
-            ["ecoscope-workflows-core",        "0.22.17.*", "ecoscope-workflows"],
-            ["ecoscope-workflows-ext-ecoscope","0.22.17.*", "ecoscope-workflows"],
-            ["ecoscope-workflows-ext-custom",  "0.0.39.*",  "ecoscope-workflows-custom"],
+            ["ecoscope-workflows-core",        "0.22.18.*", "ecoscope-workflows"],
+            ["ecoscope-workflows-ext-ecoscope","0.22.18.*", "ecoscope-workflows"],
+            ["ecoscope-workflows-ext-custom",  "0.0.43.*",  "ecoscope-workflows-custom"],
             ["ecoscope-workflows-ext-ste",     "0.0.18.*",  "ecoscope-workflows-custom"],
             ["ecoscope-workflows-ext-mnc",     "0.0.8.*",   "ecoscope-workflows-custom"],
         ],
@@ -496,9 +496,9 @@ story += [
     make_table(
         [
             ["Package", "Version pinned in spec.yaml"],
-            ["ecoscope-workflows-core",        "0.22.17.*"],
-            ["ecoscope-workflows-ext-ecoscope","0.22.17.*"],
-            ["ecoscope-workflows-ext-custom",  "0.0.39.*"],
+            ["ecoscope-workflows-core",        "0.22.18.*"],
+            ["ecoscope-workflows-ext-ecoscope","0.22.18.*"],
+            ["ecoscope-workflows-ext-custom",  "0.0.43.*"],
             ["ecoscope-workflows-ext-ste",     "0.0.18.*"],
             ["ecoscope-workflows-ext-mnc",     "0.0.8.*"],
         ],
