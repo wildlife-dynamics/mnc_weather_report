@@ -896,9 +896,9 @@ def main(params: Params):
                 "height": 720,
                 "full_page": False,
                 "device_scale_factor": 2.0,
-                "wait_for_timeout": 10,
+                "wait_for_timeout": 1,
                 "timeout": 0,
-                "max_concurrent_pages": 5,
+                "max_concurrent_pages": 10,
             },
             **(params_dict.get("convert_chart_html_png") or {}),
         )

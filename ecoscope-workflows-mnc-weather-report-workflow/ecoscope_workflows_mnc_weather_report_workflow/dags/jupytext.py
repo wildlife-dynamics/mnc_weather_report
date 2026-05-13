@@ -1304,9 +1304,9 @@ convert_chart_html_png = (
             "height": 720,
             "full_page": False,
             "device_scale_factor": 2.0,
-            "wait_for_timeout": 10,
+            "wait_for_timeout": 1,
             "timeout": 0,
-            "max_concurrent_pages": 5,
+            "max_concurrent_pages": 10,
         },
         **convert_chart_html_png_params,
     )

@@ -9,17 +9,25 @@ requirements:
     channel: https://repo.prefix.dev/ecoscope-workflows/
 
   - name: ecoscope-workflows-ext-custom
-    version: "0.0.43.*"
+    version: "0.0.49.*"
     channel: https://repo.prefix.dev/ecoscope-workflows-custom/
 
   - name: ecoscope-workflows-ext-ste
-    version: "0.0.18.*"
+    version: "0.0.20.*"
+    channel: https://repo.prefix.dev/ecoscope-workflows-custom/
+
+  - name: ecoscope-workflows-ext-mep
+    version: "0.0.19.*"
+    channel: https://repo.prefix.dev/ecoscope-workflows-custom/
+
+  - name: ecoscope-workflows-ext-big-life
+    version: "0.0.11.*"
     channel: https://repo.prefix.dev/ecoscope-workflows-custom/
 
   - name: ecoscope-workflows-ext-mnc
-    version: "0.0.8.*"
+    version: "0.0.10.*"
     channel: https://repo.prefix.dev/ecoscope-workflows-custom/
-    
+
 workflow:
   - name: Set workflow details
     id: workflow_details
@@ -624,9 +632,9 @@ workflow:
         height: 720          
         full_page: false
         device_scale_factor: 2.0 
-        wait_for_timeout: 10 
+        wait_for_timeout: 1
         timeout: 0 
-        max_concurrent_pages: 5
+        max_concurrent_pages: 10
         
   - name: MNC event report dashboard
     id: mnc_events_dashboard
